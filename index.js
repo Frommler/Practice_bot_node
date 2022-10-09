@@ -20,7 +20,7 @@ Bot.start((ctx) => {
   ctx.reply("Input category");
 });
 
-Bot.hears(/[A-Z]+/i, ctx => {
+Bot.hears(/[A-Я]+/i, ctx => {
   ctx.reply("Input number");
 });
 
